@@ -45,7 +45,7 @@ mvn clean test
  Tomcat maven deploy plugin is not configured or support.
 
 
-# How I tackled this challenge under 3 hours (part from the readme part)
+## How I tackled this challenge
 
 I read the task/challenge and tired to familiarised myself with the Json API, by justing trying it out in the browser
 with and without parameters(filters).
