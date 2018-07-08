@@ -21,14 +21,28 @@ There are 3 was to run this project.
 
 You can test the programm after starting the tomcat server.
 In your terminal:
-http://localhost:8080/rest/sfmservice     #without filter support to output all the movies in json.
-http://localhost:8080/rest/sfmservice/180 # with filter support 
+```bash
+http://localhost:8080/api_v1.0/sfmservice     #without filter support to output all the movies in json.
+http://localhost:8080/api_v1.0/sfmservice/180 # with filter support 
+
+```
+
 
 3. Test this using maven. Just forget about the whole set up complications and run
+```bash
 mvn clean test
+```
+
+### Testing with curl
+
+```bash
+  curl http://localhost:8080/api_v1.0/sfmservice/180
+  curl http://localhost:8080/api_v1.0/sfmservice
+
+```
 
 
-3. Tomcat maven deploy plugin is not configured or support.
+ Tomcat maven deploy plugin is not configured or support.
 
 
 # How I tackled this challenge under 3 hours (part from the readme part)
