@@ -54,9 +54,15 @@ After that I downloaded the tomcat server 9.0 and configured it in IntelliJ. (No
 I used maven for rapid protoyping with the following configurations.
 
 ```bash
-mvn archetype:generate -DarchetypeArtifactId=jersey-heroku-webapp  
- -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false 
- -DgroupId=com.moviesREST -DartifactId=movies-REST-webapp -Dpackage=com.moviesREST 
+mvn archetype:generate -DarchetypeArtifactId=jersey-heroku-webapp \
+ -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \ 
+ -DgroupId=com.moviesREST -DartifactId=movies-REST-webapp -Dpackage=com.moviesREST \
  -DarchetypeVersion=2.27
+ 
+ 
+ mvn archetype:generate -DarchetypeArtifactId=jersey-heroku-webapp \
+                 -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false \
+                 -DgroupId=com.moviesREST -DartifactId=movies-REST-webapp -Dpackage=com.moviesREST \
+                 -DarchetypeVersion=2.27
  
 ```
