@@ -1,6 +1,5 @@
 package com.moviesREST;
 
-import javax.validation.constraints.AssertTrue;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.Response;
 
@@ -8,8 +7,6 @@ import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
 
 import org.junit.Test;
-
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
