@@ -1,11 +1,11 @@
 [![build](https://img.shields.io/travis/seekaddo/movies-REST-webapp.svg)](https://travis-ci.org/seekaddo/movies-REST-webapp)
-## Java Movie REST Service
+### Java Movie REST Service
 
 This is a simple REST Service for the Movies in in San Francisco
 
 Data source: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am
 
-# REST-Service Server
+### REST-Service Server
 Server: Tomcat server 9 with Jersy Servlet-container
 Test: using  JerseyTest and grizzly
 Json API: Json.org
@@ -13,7 +13,7 @@ Configured in IntelliJ Ultimate.
 
 
 
-# Run the Application
+### Run the Application
 
 There are 3 was to run this project.
 1. Import it using maven into any IDEA or IntelliJ
