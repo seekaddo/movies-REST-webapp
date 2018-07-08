@@ -12,6 +12,6 @@
   </head>
   <body>
   Welcome to the Movies night  in San Francisco
-  <p><a href="rest/sfmservice">SF Movies</a>
+  <p><a href="api_v1.0/sfmservice">SF Movies</a>
   </body>
 </html>
