@@ -41,6 +41,8 @@ mvn clean test
 
 ```
 
+REST server hosted on Heroku [api_v1.0/sfmservice](https://movies-rest-server.herokuapp.com/api_v1.0/sfmservice/)
+
 
  Tomcat maven deploy plugin is not configured or support.
 
