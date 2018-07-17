@@ -31,6 +31,14 @@
             <artifactId>jersey-hk2</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180130</version>
+        </dependency>
+
+
         <!-- uncomment this to get JSON support-->
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
