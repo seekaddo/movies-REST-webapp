@@ -23,7 +23,7 @@ You can test the programm after starting the tomcat server.
 In your terminal:
 ```bash
 http://localhost:8080/api_v1.0/sfmservice     #without filter support to output all the movies in json.
-http://localhost:8080/api_v1.0/sfmservice/180 # with filter support 
+http://localhost:8080/api_v1.0/sfmservice/query?title=180 # with filter support 
 
 ```
 
@@ -36,7 +36,7 @@ mvn clean test
 ### Testing with curl
 
 ```bash
-  curl http://localhost:8080/api_v1.0/sfmservice/180
+  curl http://localhost:8080/api_v1.0/sfmservice/query?title=180
   curl http://localhost:8080/api_v1.0/sfmservice
 
 ```
