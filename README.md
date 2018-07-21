@@ -36,15 +36,15 @@ mvn clean test
 ### Testing with curl
 
 ```bash
-  curl http://movies-rest-server.herokuapp.com/api_v1.0/sfmservice/query?title=180
-  curl http://movies-rest-server.herokuapp.com/api_v1.0/sfmservice
-  curl http://movies-rest-server.herokuapp.com/api_v1.0/sfmservice/query?location=Columbus%20between%20Bay%20and%20Washington
+  curl https://restsfmovies.seekaddo.me/api_v1.0/sfmservice/query?title=180
+  curl https://restsfmovies.seekaddo.me/api_v1.0/sfmservice
+  curl https://restsfmovies.seekaddo.me/api_v1.0/sfmservice/query?location=Columbus%20between%20Bay%20and%20Washington
 
 ```
 
-REST server hosted on Heroku [api_v1.0/sfmservice](https://movies-rest-server.herokuapp.com/api_v1.0/sfmservice/)
+REST server hosted on Heroku [api_v1.0/sfmservice](https://restsfmovies.seekaddo.me/api_v1.0/sfmservice/)
 or query with location
-http://movies-rest-server.herokuapp.com/api_v1.0/sfmservice/query?location=Columbus%20between%20Bay%20and%20Washington
+https://restsfmovies.seekaddo.me/api_v1.0/sfmservice/query?location=Columbus%20between%20Bay%20and%20Washington
 
 
  Tomcat maven deploy plugin is not configured or support.
